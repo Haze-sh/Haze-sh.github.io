@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Plain-Text | Hazem Hussien</title>
-    <link>https://hazemhussien.xyz/tags/plain-text/</link>
-      <atom:link href="https://hazemhussien.xyz/tags/plain-text/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/plain-text/</link>
+      <atom:link href="http://localhost:1313/tags/plain-text/index.xml" rel="self" type="application/rss+xml" />
     <description>Plain-Text</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 04 Dec 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://hazemhussien.xyz/media/icon_hu965be051ae91dd0bce8f849bcec32af0_10487_512x512_fill_lanczos_center_3.png</url>
+      <url>http://localhost:1313/media/icon_hu_bc4cd7e17a49db8f.png</url>
       <title>Plain-Text</title>
-      <link>https://hazemhussien.xyz/tags/plain-text/</link>
+      <link>http://localhost:1313/tags/plain-text/</link>
     </image>
     
     <item>
       <title>📑 How I manage my life with plain-text files</title>
-      <link>https://hazemhussien.xyz/post/life-in-plain-text/</link>
+      <link>http://localhost:1313/post/life-in-plain-text/</link>
       <pubDate>Sun, 04 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://hazemhussien.xyz/post/life-in-plain-text/</guid>
+      <guid>http://localhost:1313/post/life-in-plain-text/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@Zettelkasten @plain-text @jrnl @todo.txt @ledger
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;I use plain-text files to keep track of every aspect of my life. Whether it is my studies, work or liters of water I drink every day.&lt;/p&gt;
 &lt;p&gt;This makes me not under the mercy of different mobile applications solving the same problem. One application for workouts and another for grocery while having a different one for scheduling that has it is own weird format.&lt;/p&gt;
@@ -30,13 +30,16 @@
 &lt;p&gt;I use the command-line tool and python package &lt;strong&gt;topydo&lt;/strong&gt;. I can even use it as a Kanban-style application from the command line with the command &lt;code&gt;topydo comlumns&lt;/code&gt; and I use a cron job to produce ical standard files from the todo.txt file by the command &lt;code&gt;topydo ls -f ical&lt;/code&gt; so I can use it with my calendar software which is calcurse.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;To automate the integration between todo.txt and calcurse I use the python package &lt;a href=&#34;https://github.com/seanbreckenridge/calcurse-load&#34;&gt;calcurse-load&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;To automate the integration between todo.txt and calcurse I use the python package 
+&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;I usually edit the file from vim and it is supported by the plugin &lt;a href=&#34;dbeniamine/todo.txt-vim&#34;&gt;todo.txt-vim&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I usually edit the file from vim and it is supported by the plugin 
+&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Then I use another cron job to convert the todo.txt to an Org file with a script &lt;a href=&#34;https://github.com/Haze-sh/dotfiles/blob/master/private_dot_local/bin/scripts/executable_todo2org.py&#34;&gt;todo2org.py&lt;/a&gt;.
+&lt;p&gt;Then I use another cron job to convert the todo.txt to an Org file with a script 
+.
 (This script I have ported with some modifications)&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -54,7 +57,8 @@
 &lt;/ul&gt;
 &lt;p&gt;This is not thinking in an analog way in a digital world but rather a mind organizing technique in someway. So I can see my notes and have an overview of the &amp;ldquo;line of thought&amp;rdquo; of my ideas without relying on digital tools.&lt;/p&gt;
 &lt;p&gt;I do use timestamped notes too but these are done on smaller scaled notes, the &amp;ldquo;atomic&amp;rdquo; ones and all notes are linked together by the digital tools.&lt;/p&gt;
-&lt;p&gt;There is an excellent guide on how to make a markdown Zettelkasten with vim and with as few plugins as possible by &lt;a href=&#34;https://www.edwinwenink.xyz/series/workflow/&#34;&gt;Edwin Wenink&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;There is an excellent guide on how to make a markdown Zettelkasten with vim and with as few plugins as possible by 
+.&lt;/p&gt;
 &lt;p&gt;I use most of his neovim configuration in using ctags, searching with fzf (ripgrep) and backlinks but I have my own customisations.&lt;/p&gt;
 &lt;p&gt;To summarize my usage of vim in a Zettelkasten:&lt;/p&gt;
 &lt;p&gt;Buffers:&lt;/p&gt;
@@ -119,9 +123,11 @@
 &lt;p&gt;&lt;code&gt;&amp;lt;leader&amp;gt;nb&lt;/code&gt; for backlinks&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href=&#34;101.2.3-workflow.md&#34;&gt;101.2.workflow.md&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
 &lt;h3 id=&#34;jrnlsh&#34;&gt;jrnl.sh&lt;/h3&gt;
-&lt;p&gt;Despite its confusing and not so good name (Please don&amp;rsquo;t include .sh if it is written in python): &lt;a href=&#34;jrnl.sh&#34;&gt;jrnl.sh&lt;/a&gt; is one of the best tools for command line journalling.&lt;/p&gt;
+&lt;p&gt;Despite its confusing and not so good name (Please don&amp;rsquo;t include .sh if it is written in python): 
+ is one of the best tools for command line journalling.&lt;/p&gt;
 &lt;p&gt;It uses open formats while having a text based back-end which makes it perfect for my routine.&lt;/p&gt;
 &lt;p&gt;Journalling has been a very effective (scientifically proven) way for therapy but also for retaining memories and managing our life in thoughtful ways.&lt;/p&gt;
 &lt;p&gt;I don&amp;rsquo;t journal so much from the command line itself but rather edit with vim which usually makes me write more.&lt;/p&gt;
@@ -173,7 +179,8 @@ The journal entries would be something like this:&lt;/p&gt;
 &lt;li&gt;habitstracker.jrnl&lt;/li&gt;
 &lt;li&gt;meetingstracker.jrnl&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Pro Tip: I use the script &lt;a href=&#34;https://github.com/avimehenwal/git-insight&#34;&gt;git-insight&lt;/a&gt; (Also based on termgraph) to get data about my git commits without journalling them and I make use of automation a lot but writing habits is another process that doesn&amp;rsquo;t contradict collecting data.&lt;/p&gt;
+&lt;p&gt;Pro Tip: I use the script 
+ (Also based on termgraph) to get data about my git commits without journalling them and I make use of automation a lot but writing habits is another process that doesn&amp;rsquo;t contradict collecting data.&lt;/p&gt;
 &lt;h3 id=&#34;ledger&#34;&gt;Ledger&lt;/h3&gt;
 &lt;p&gt;I use ledger for keeping track of my expenses and assets but I also use it for budgeting and time-tracking.&lt;/p&gt;
 &lt;p&gt;I don&amp;rsquo;t really use the ledger file to track most my time day-to-day as I already journal but I rather use it to &amp;ldquo;budget&amp;rdquo; my time and to keep a higher overview of my used time daily, weekly and monthly. I would keep blocks of time (time-blocking), write them in my &lt;strong&gt;timetracking.ledger&lt;/strong&gt; file and do my best to stick to them.&lt;/p&gt;
