@@ -1,0 +1,16 @@
+main:
+  - name: الرئيسية
+    url: /ar
+    weight: 50
+  - name: أحدث المنشورات
+    url: /#news
+    weight: 40
+    # - name: المشاريع
+    #   url: '#projects'
+    #   weight: 30
+  - name: السيرة الذاتيّة
+    url: /uploads/resume.pdf
+    weight: 20
+  - name: اتصل
+    url: 'mailto:contact@hazemhussien.xyz'
+    weight: 10
