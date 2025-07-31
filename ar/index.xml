@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>حازم حسين</title>
-    <link>http://localhost:1313/ar/</link>
-      <atom:link href="http://localhost:1313/ar/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://haze-sh.github.io/ar/</link>
+      <atom:link href="https://haze-sh.github.io/ar/index.xml" rel="self" type="application/rss+xml" />
     <description>حازم حسين</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ar-eg</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1314/media/icon_hu_bc4cd7e17a49db8f.png</url>
+      <url>https://haze-sh.github.io/media/icon_hu_bc4cd7e17a49db8f.png</url>
       <title>حازم حسين</title>
-      <link>http://localhost:1313/ar/</link>
+      <link>https://haze-sh.github.io/ar/</link>
     </image>
     
     <item>
       <title>How I manage my life with plain-text files</title>
-      <link>http://localhost:1313/ar/post/life-in-plain-text/</link>
+      <link>https://haze-sh.github.io/ar/post/life-in-plain-text/</link>
       <pubDate>Sun, 04 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ar/post/life-in-plain-text/</guid>
+      <guid>https://haze-sh.github.io/ar/post/life-in-plain-text/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@Zettelkasten @plain-text @jrnl @todo.txt @ledger
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;I use plain-text files to keep track of every aspect of my life. Whether it is my studies, work or liters of water I drink every day.&lt;/p&gt;
 &lt;p&gt;This makes me not under the mercy of different mobile applications solving the same problem. One application for workouts and another for grocery while having a different one for scheduling that has it is own weird format.&lt;/p&gt;
@@ -194,9 +194,9 @@ The journal entries would be something like this:&lt;/p&gt;
     
     <item>
       <title>Public PGP Key</title>
-      <link>http://localhost:1313/ar/post/pgp/</link>
+      <link>https://haze-sh.github.io/ar/post/pgp/</link>
       <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ar/post/pgp/</guid>
+      <guid>https://haze-sh.github.io/ar/post/pgp/</guid>
       <description>&lt;p&gt;You can also find the key in text format &lt;a href=&#34;https://openpgpkey.hazemhussien.xyz&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; or &lt;a href=&#34;https:hazemhussien.xyz/pgp.txt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;begin-pgp-public-key-block&#34;&gt;BEGIN PGP PUBLIC KEY BLOCK&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mQINBGClV4IBEAC9V87sglBQNq9hs11pxJanV7mgy5esCs0gBp+jMRiFPd6cebtV

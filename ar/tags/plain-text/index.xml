@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Plain-Text | حازم حسين</title>
-    <link>http://localhost:1313/ar/tags/plain-text/</link>
-      <atom:link href="http://localhost:1313/ar/tags/plain-text/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://haze-sh.github.io/ar/tags/plain-text/</link>
+      <atom:link href="https://haze-sh.github.io/ar/tags/plain-text/index.xml" rel="self" type="application/rss+xml" />
     <description>Plain-Text</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ar-eg</language><lastBuildDate>Sun, 04 Dec 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1314/media/icon_hu_bc4cd7e17a49db8f.png</url>
+      <url>https://haze-sh.github.io/media/icon_hu_bc4cd7e17a49db8f.png</url>
       <title>Plain-Text</title>
-      <link>http://localhost:1313/ar/tags/plain-text/</link>
+      <link>https://haze-sh.github.io/ar/tags/plain-text/</link>
     </image>
     
     <item>
       <title>How I manage my life with plain-text files</title>
-      <link>http://localhost:1313/ar/post/life-in-plain-text/</link>
+      <link>https://haze-sh.github.io/ar/post/life-in-plain-text/</link>
       <pubDate>Sun, 04 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ar/post/life-in-plain-text/</guid>
+      <guid>https://haze-sh.github.io/ar/post/life-in-plain-text/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@Zettelkasten @plain-text @jrnl @todo.txt @ledger
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;I use plain-text files to keep track of every aspect of my life. Whether it is my studies, work or liters of water I drink every day.&lt;/p&gt;
 &lt;p&gt;This makes me not under the mercy of different mobile applications solving the same problem. One application for workouts and another for grocery while having a different one for scheduling that has it is own weird format.&lt;/p&gt;
