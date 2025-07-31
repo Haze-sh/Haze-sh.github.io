@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/ar/post/</loc>
+    <lastmod>2022-12-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar-eg"
+                href="http://localhost:1313/ar/post/"
+                />
+  </url><url>
     <loc>http://localhost:1313/ar/post/life-in-plain-text/</loc>
     <lastmod>2022-12-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -56,20 +70,6 @@
                 rel="alternate"
                 hreflang="ar-eg"
                 href="http://localhost:1313/ar/tags/plain-text/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/ar/post/</loc>
-    <lastmod>2022-12-04T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar-eg"
-                href="http://localhost:1313/ar/post/"
                 />
   </url><url>
     <loc>http://localhost:1313/ar/tags/</loc>

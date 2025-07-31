@@ -1,13 +1,13 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: July 31, 2025 --><html lang="en-us" dir="ltr"
+<!-- Last Published: 31 يوليو 2025 --><html lang="ar-eg" dir="ltr"
       data-wc-theme-default="system">
   
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="generator" content="Hugo Blox Builder 0.3.2" />
+  <meta name="generator" content="Hugo Blox Builder 0.2.0" />
 
   
   
@@ -28,25 +28,21 @@
   
   
   
-    
-    
-    
-  
   
 
-  <meta name="author" content="Hazem Hussien" />
+  
 
   
   
   
     
   
-  <meta name="description" content="Researcher / Programmer" />
+  <meta name="description" content="" />
 
   
-    <link rel="alternate" hreflang="ar" href="http://localhost:1313/ar/404.html" />
+    <link rel="alternate" hreflang="en" href="http://localhost:1313/authors/" />
   
-  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/404.html" />
+  <link rel="alternate" hreflang="ar-eg" href="http://localhost:1313/ar/authors/" />
 
   
   
@@ -59,7 +55,7 @@
   
   
     
-    <link href="/dist/wc.min.05570f1deda629d4e2d77f73534a63aa04471f012db6735c59424372f467db85.css" rel="stylesheet" />
+    <link href="/dist/wc.min.css" rel="stylesheet" />
   
 
   
@@ -158,12 +154,14 @@
 
   
   
+    <link rel="alternate" href="/ar/authors/index.xml" type="application/rss+xml" title="حازم حسين" />
+  
 
   
   <link rel="icon" type="image/png" href="/media/icon_hu_fc12463ad4c6c8e0.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_fc43ac843a72639d.png" />
 
-  <link rel="canonical" href="http://localhost:1313/404.html" />
+  <link rel="canonical" href="http://localhost:1313/ar/authors/" />
 
   
   
@@ -188,11 +186,11 @@
     <meta property="twitter:site" content="@GetResearchDev" />
     <meta property="twitter:creator" content="@GetResearchDev" />
   
-  <meta property="og:site_name" content="Hazem Hussien" />
-  <meta property="og:url" content="http://localhost:1313/404.html" />
-  <meta property="og:title" content="404 Page not found | Hazem Hussien" />
-  <meta property="og:description" content="Researcher / Programmer" /><meta property="og:image" content="http://localhost:1313/media/icon_hu_bc4cd7e17a49db8f.png" />
-    <meta property="twitter:image" content="http://localhost:1313/media/icon_hu_bc4cd7e17a49db8f.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:site_name" content="حازم حسين" />
+  <meta property="og:url" content="http://localhost:1313/ar/authors/" />
+  <meta property="og:title" content="Authors | حازم حسين" />
+  <meta property="og:description" content="" /><meta property="og:image" content="http://localhost:1313/media/icon_hu_bc4cd7e17a49db8f.png" />
+    <meta property="twitter:image" content="http://localhost:1313/media/icon_hu_bc4cd7e17a49db8f.png" /><meta property="og:locale" content="ar-eg" />
   
     
   
@@ -202,7 +200,7 @@
 
 
 
-  <title>404 Page not found | Hazem Hussien</title>
+  <title>Authors | حازم حسين</title>
 
   
   
@@ -238,137 +236,6 @@
   
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-  
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-  
-  
-  
-  
-  
-  
-  
-  
 
 
 
@@ -392,67 +259,40 @@
     --pagefind-ui-border: #152028;
     --pagefind-ui-tag: #152028;
   }
-
-   
-  .search-close > svg {
-    height: calc(64px * var(--pagefind-ui-scale));
-    width: calc(64px * var(--pagefind-ui-scale));
-  }
 </style>
 
 <script>
-  
-  let searchWrapper = null;
-
   window.addEventListener('DOMContentLoaded', (event) => {
-    
     new PagefindUI({
       element: "#search",
       showSubResults: true,
       baseUrl: window.hbb.pagefind.baseUrl,
       bundlePath: window.hbb.pagefind.baseUrl + "pagefind/",
     });
-
-    
-    searchWrapper = document.getElementById('search-wrapper');
-
-    
-    let triggers = document.querySelectorAll('[data-search-toggle]');
-    triggers.forEach(trigger =>
-      trigger.addEventListener('click', handleSearchToggle)
-    );
   });
+  document.addEventListener('DOMContentLoaded', () => {
+    let element = document.getElementById('search');
+    let trigger = document.getElementById('search_toggle');
 
-  function handleSearchToggle(event) {
-    if (!searchWrapper) return;
+    if (trigger) {
+      trigger.addEventListener('click', () => {
+        element.classList.toggle('hidden');
+        element.querySelector("input").value = ""
+        element.querySelector("input").focus()
 
-    const isHidden = searchWrapper.classList.contains('hidden');
-    searchWrapper.classList.toggle('hidden');
-    document.body.style.overflow = isHidden ? 'hidden' : '';
+        if (!element.classList.contains('hidden')) {
+          let clear_trigger = document.querySelector('.pagefind-ui__search-clear');
 
-    const searchInput = searchWrapper.querySelector("input");
-    if (searchInput) {
-      searchInput.value = "";
-      searchInput.focus();
-    }
+          if (clear_trigger && !clear_trigger.hasAttribute('listenerOnClick')) {
+            clear_trigger.setAttribute('listenerOnClick', 'true');
 
-    if (!searchWrapper.classList.contains('hidden')) {
-      let clearTrigger = document.querySelector('.pagefind-ui__search-clear');
+            clear_trigger.addEventListener('click', () => {
+              element.classList.toggle('hidden');
+            });
+          }
+        }
 
-      if (clearTrigger && !clearTrigger.hasAttribute('listenerOnClick')) {
-        clearTrigger.setAttribute('listenerOnClick', 'true');
-
-        clearTrigger.addEventListener('click', () => {
-          searchInput.focus();
-        });
-      }
-    }
-  }
-
-  
-  document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape' && searchWrapper && !searchWrapper.classList.contains('hidden')) {
-      searchWrapper.classList.add('hidden');
+      });
     }
   });
 </script>
@@ -614,7 +454,7 @@
   
   <script
     defer
-    src="/js/hugo-blox-en.min.js"
+    src="/js/hugo-blox-ar.min.js"
     integrity=""
   ></script>
 
@@ -655,8 +495,8 @@
   <nav class="navbar px-3 flex justify-left">
     <div class="order-0 h-100">
       
-      <a class="navbar-brand" href="/" title="Hazem Hussien">
-        Hazem Hussien
+      <a class="navbar-brand" href="/ar/" title="حازم حسين">
+        حازم حسين
       </a>
     </div>
     
@@ -693,8 +533,8 @@
         <a
           class="nav-link "
           
-          href="/"
-        >Home</a
+          href="mailto:hazemhussien@tutalmail.com"
+        >اتصل</a
         >
       </li>
       
@@ -707,8 +547,8 @@
         <a
           class="nav-link "
           
-          href="/#news"
-        >News</a
+          href="/ar/uploads/resume.pdf"
+        >السيرة الذاتيّة</a
         >
       </li>
       
@@ -721,8 +561,8 @@
         <a
           class="nav-link "
           
-          href="/uploads/resume.pdf"
-        >Résumé</a
+          href="/ar/#news"
+        >أحدث المنشورات</a
         >
       </li>
       
@@ -735,8 +575,8 @@
         <a
           class="nav-link "
           
-          href="mailto:hazemhussien@tutamail.com"
-        >Contact</a
+          href="/ar"
+        >الرئيسية</a
         >
       </li>
       
@@ -750,9 +590,9 @@
       
       
       <button
-        aria-label="toggle search"
+        aria-label="search"
         class="text-black hover:text-primary  inline-block px-3 text-xl dark:text-white"
-        data-search-toggle>
+        id="search_toggle">
         <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512" fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
       </button>
       
@@ -800,7 +640,7 @@
       aria-label="Languages"
     >
       <div class="flex items-center gap-2 capitalize">
-        <svg height=18 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5a17.92 17.92 0 0 1-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418"/></svg><span>English</span></div>
+        <svg height=18 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5a17.92 17.92 0 0 1-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418"/></svg><span>عربي</span></div>
     </button>
     <ul
       class="fixed m-0 min-w-[100px] hidden z-20 max-h-64 overflow-auto rounded-md ring-1 ring-black/5 bg-white py-1 text-sm shadow-lg dark:ring-white/20 dark:bg-neutral-800"
@@ -809,9 +649,9 @@
       
         <li class="flex flex-col">
           <a
-            href="http://localhost:1313/ar/404.html"
+            href="http://localhost:1313/authors/"
             class="relative cursor-pointer text-gray-800 dark:text-gray-100 hover:bg-primary-50 hover:text-primary-600 hover:dark:bg-primary-500/10 hover:dark:text-primary-200 whitespace-nowrap py-1.5 transition-colors ltr:pl-3 ltr:pr-9 rtl:pr-3 rtl:pl-9"
-          >عربي</a>
+          >English</a>
         </li>
       </ul>
   </div></div>
@@ -823,60 +663,28 @@
   </nav>
 </header>
 
-<div
-  id="search-wrapper"
-  class="hidden fixed inset-0 z-50 bg-white dark:bg-gray-900 flex flex-col overflow-hidden"
->
-  <div class="flex justify-end p-3">
-    <button
-      aria-label="search"
-      class="search-close text-black hover:text-primary dark:text-white"
-      data-search-toggle
-    >
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
-      </svg>
-    </button>
-  </div>
 
-  <div id="search" class="flex-1 overflow-y-auto p-3">
-    
-  </div>
-</div>
+<div id="search" class="hidden p-3"></div>
 
 
         
       
     </div>
     <div class="page-body  my-10">
-      <div class="flex flex-col justify-center">
-  <article class="container mx-auto prose prose-slate lg:prose-xl dark:prose-invert">
-    <h1 class="lg:text-6xl">Page not found</h1>
+      
 
+<div class="max-w-prose mx-auto flex justify-left">
+  <article class="prose prose-slate lg:prose-xl dark:prose-invert max-w-none">
+    <h1 class="lg:text-6xl !mb-4">Authors</h1>
     
-
-    <p>Perhaps you were looking for one of these?</p>
-
-    
-    
-    
-    <h2>Latest</h2>
-    <ul>
-      
-      <li><a href="/post/">Blog</a></li>
-      
-      <li><a href="/post/life-in-plain-text/">📑 How I manage my life with plain-text files</a></li>
-      
-      <li><a href="/post/pgp/">🔑 Public PGP Key</a></li>
-      
-      <li><a href="/terms/">Terms</a></li>
-      
-      <li><a href="/privacy/">Privacy Policy</a></li>
-      
-    </ul>
-    
-
   </article>
+</div>
+
+<div class="max-w-prose mx-auto my-5">
+
+  <div class="flex flex-row gap-6 flex-wrap">
+  </div>
+
 </div>
     </div>
     <div class="page-footer">
@@ -892,23 +700,13 @@
 <div class="mx-auto flex gap-3 py-2 px-4">
   <div class="font-bold"><svg class="inline-block pr-1" style="height: 1em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5a17.92 17.92 0 0 1-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418"/></svg>Languages:
   </div>
-  <div class="font-bold">English</div>
+  <div class="font-bold">عربي</div>
   
-  <div><a href="http://localhost:1313/ar/404.html">عربي</a></div>
+  <div><a href="http://localhost:1313/authors/">English</a></div>
   
 </div>
 
 
-
-<p class="text-center">
-  
-  <a href="/privacy/">Privacy Policy</a>
-  
-  
-   &middot; 
-  <a href="/terms/">Terms</a>
-  
-</p>
 
 
 

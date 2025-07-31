@@ -5,7 +5,7 @@ https://keybase.io/hazemhussien
 
 I hereby claim:
 
-  * I am an admin of https://hazemhussien.xyz
+  * I am an admin of https://haze-sh.github.io
   * I am hazemhussien (https://keybase.io/hazemhussien) on keybase.
   * I have a public key with fingerprint FB76 D70D ACB6 D7A4 20B0  D7AD 33B8 E38D A567 CB09
 
@@ -23,7 +23,7 @@ To do so, I am signing this object:
       "username": "hazemhussien"
     },
     "service": {
-      "hostname": "hazemhussien.xyz",
+      "hostname": "haze-shgithub.io",
       "protocol": "https:"
     },
     "type": "web_service_binding",

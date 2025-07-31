@@ -16,6 +16,20 @@
                 href="http://localhost:1313/post/life-in-plain-text/"
                 />
   </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2022-12-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar-eg"
+                href="http://localhost:1313/ar/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/post/"
+                />
+  </url><url>
     <loc>http://localhost:1313/tags/jrnl/</loc>
     <lastmod>2022-12-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -56,20 +70,6 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="http://localhost:1313/tags/plain-text/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2022-12-04T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar-eg"
-                href="http://localhost:1313/ar/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/post/"
                 />
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
