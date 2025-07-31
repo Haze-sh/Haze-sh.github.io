@@ -2,157 +2,157 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://haze-sh.github.io/ar/post/</loc>
+    <loc>http://localhost:1313/ar/post/</loc>
     <lastmod>2022-12-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://haze-sh.github.io/post/"
+                href="http://localhost:1314/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-eg"
-                href="https://haze-sh.github.io/ar/post/"
+                href="http://localhost:1313/ar/post/"
                 />
   </url><url>
-    <loc>https://haze-sh.github.io/ar/post/life-in-plain-text/</loc>
+    <loc>http://localhost:1313/ar/post/life-in-plain-text/</loc>
     <lastmod>2022-12-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://haze-sh.github.io/post/life-in-plain-text/"
+                href="http://localhost:1314/post/life-in-plain-text/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-eg"
-                href="https://haze-sh.github.io/ar/post/life-in-plain-text/"
+                href="http://localhost:1313/ar/post/life-in-plain-text/"
                 />
   </url><url>
-    <loc>https://haze-sh.github.io/ar/tags/jrnl/</loc>
+    <loc>http://localhost:1313/ar/tags/jrnl/</loc>
     <lastmod>2022-12-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://haze-sh.github.io/tags/jrnl/"
+                href="http://localhost:1314/tags/jrnl/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-eg"
-                href="https://haze-sh.github.io/ar/tags/jrnl/"
+                href="http://localhost:1313/ar/tags/jrnl/"
                 />
   </url><url>
-    <loc>https://haze-sh.github.io/ar/tags/ledger/</loc>
+    <loc>http://localhost:1313/ar/tags/ledger/</loc>
     <lastmod>2022-12-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://haze-sh.github.io/tags/ledger/"
+                href="http://localhost:1314/tags/ledger/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-eg"
-                href="https://haze-sh.github.io/ar/tags/ledger/"
+                href="http://localhost:1313/ar/tags/ledger/"
                 />
   </url><url>
-    <loc>https://haze-sh.github.io/ar/tags/plain-text/</loc>
+    <loc>http://localhost:1313/ar/tags/plain-text/</loc>
     <lastmod>2022-12-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://haze-sh.github.io/tags/plain-text/"
+                href="http://localhost:1314/tags/plain-text/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-eg"
-                href="https://haze-sh.github.io/ar/tags/plain-text/"
+                href="http://localhost:1313/ar/tags/plain-text/"
                 />
   </url><url>
-    <loc>https://haze-sh.github.io/ar/tags/</loc>
+    <loc>http://localhost:1313/ar/tags/</loc>
     <lastmod>2022-12-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://haze-sh.github.io/tags/"
+                href="http://localhost:1314/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-eg"
-                href="https://haze-sh.github.io/ar/tags/"
+                href="http://localhost:1313/ar/tags/"
                 />
   </url><url>
-    <loc>https://haze-sh.github.io/ar/tags/todo.txt/</loc>
+    <loc>http://localhost:1313/ar/tags/todo.txt/</loc>
     <lastmod>2022-12-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://haze-sh.github.io/tags/todo.txt/"
+                href="http://localhost:1314/tags/todo.txt/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-eg"
-                href="https://haze-sh.github.io/ar/tags/todo.txt/"
+                href="http://localhost:1313/ar/tags/todo.txt/"
                 />
   </url><url>
-    <loc>https://haze-sh.github.io/ar/tags/zettelkasten/</loc>
+    <loc>http://localhost:1313/ar/tags/zettelkasten/</loc>
     <lastmod>2022-12-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://haze-sh.github.io/tags/zettelkasten/"
+                href="http://localhost:1314/tags/zettelkasten/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-eg"
-                href="https://haze-sh.github.io/ar/tags/zettelkasten/"
+                href="http://localhost:1313/ar/tags/zettelkasten/"
                 />
   </url><url>
-    <loc>https://haze-sh.github.io/ar/</loc>
+    <loc>http://localhost:1313/ar/</loc>
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://haze-sh.github.io/"
+                href="http://localhost:1314/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-eg"
-                href="https://haze-sh.github.io/ar/"
+                href="http://localhost:1313/ar/"
                 />
   </url><url>
-    <loc>https://haze-sh.github.io/ar/post/pgp/</loc>
+    <loc>http://localhost:1313/ar/post/pgp/</loc>
     <lastmod>2021-12-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://haze-sh.github.io/post/pgp/"
+                href="http://localhost:1314/post/pgp/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-eg"
-                href="https://haze-sh.github.io/ar/post/pgp/"
+                href="http://localhost:1313/ar/post/pgp/"
                 />
   </url><url>
-    <loc>https://haze-sh.github.io/ar/publication_types/</loc>
+    <loc>http://localhost:1313/ar/publication_types/</loc>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://haze-sh.github.io/publication_types/"
+                href="http://localhost:1314/publication_types/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-eg"
-                href="https://haze-sh.github.io/ar/publication_types/"
+                href="http://localhost:1313/ar/publication_types/"
                 />
   </url>
 </urlset>
