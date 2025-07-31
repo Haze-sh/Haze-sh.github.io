@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1314/post/life-in-plain-text/</loc>
+    <loc>http://localhost:1313/post/life-in-plain-text/</loc>
     <lastmod>2022-12-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
@@ -13,10 +13,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1314/post/life-in-plain-text/"
+                href="http://localhost:1313/post/life-in-plain-text/"
                 />
   </url><url>
-    <loc>http://localhost:1314/post/</loc>
+    <loc>http://localhost:1313/post/</loc>
     <lastmod>2022-12-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
@@ -27,10 +27,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1314/post/"
+                href="http://localhost:1313/post/"
                 />
   </url><url>
-    <loc>http://localhost:1314/tags/jrnl/</loc>
+    <loc>http://localhost:1313/tags/jrnl/</loc>
     <lastmod>2022-12-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
@@ -41,10 +41,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1314/tags/jrnl/"
+                href="http://localhost:1313/tags/jrnl/"
                 />
   </url><url>
-    <loc>http://localhost:1314/tags/ledger/</loc>
+    <loc>http://localhost:1313/tags/ledger/</loc>
     <lastmod>2022-12-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
@@ -55,10 +55,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1314/tags/ledger/"
+                href="http://localhost:1313/tags/ledger/"
                 />
   </url><url>
-    <loc>http://localhost:1314/tags/plain-text/</loc>
+    <loc>http://localhost:1313/tags/plain-text/</loc>
     <lastmod>2022-12-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
@@ -69,10 +69,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1314/tags/plain-text/"
+                href="http://localhost:1313/tags/plain-text/"
                 />
   </url><url>
-    <loc>http://localhost:1314/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2022-12-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
@@ -83,10 +83,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1314/tags/"
+                href="http://localhost:1313/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1314/tags/todo.txt/</loc>
+    <loc>http://localhost:1313/tags/todo.txt/</loc>
     <lastmod>2022-12-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
@@ -97,10 +97,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1314/tags/todo.txt/"
+                href="http://localhost:1313/tags/todo.txt/"
                 />
   </url><url>
-    <loc>http://localhost:1314/tags/zettelkasten/</loc>
+    <loc>http://localhost:1313/tags/zettelkasten/</loc>
     <lastmod>2022-12-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
@@ -111,10 +111,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1314/tags/zettelkasten/"
+                href="http://localhost:1313/tags/zettelkasten/"
                 />
   </url><url>
-    <loc>http://localhost:1314/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
@@ -125,10 +125,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1314/"
+                href="http://localhost:1313/"
                 />
   </url><url>
-    <loc>http://localhost:1314/post/pgp/</loc>
+    <loc>http://localhost:1313/post/pgp/</loc>
     <lastmod>2021-12-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
@@ -139,18 +139,18 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1314/post/pgp/"
+                href="http://localhost:1313/post/pgp/"
                 />
   </url><url>
-    <loc>http://localhost:1314/privacy/</loc>
+    <loc>http://localhost:1313/privacy/</loc>
     <lastmod>2018-06-28T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1314/terms/</loc>
+    <loc>http://localhost:1313/terms/</loc>
     <lastmod>2018-06-28T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1314/publication_types/</loc>
+    <loc>http://localhost:1313/publication_types/</loc>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -160,7 +160,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1314/publication_types/"
+                href="http://localhost:1313/publication_types/"
                 />
   </url>
 </urlset>

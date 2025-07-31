@@ -8,7 +8,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1314/post/"
+                href="http://localhost:1313/post/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -22,7 +22,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1314/post/life-in-plain-text/"
+                href="http://localhost:1313/post/life-in-plain-text/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -36,7 +36,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1314/tags/jrnl/"
+                href="http://localhost:1313/tags/jrnl/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -50,7 +50,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1314/tags/ledger/"
+                href="http://localhost:1313/tags/ledger/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -64,7 +64,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1314/tags/plain-text/"
+                href="http://localhost:1313/tags/plain-text/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -78,7 +78,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1314/tags/"
+                href="http://localhost:1313/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -92,7 +92,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1314/tags/todo.txt/"
+                href="http://localhost:1313/tags/todo.txt/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -106,7 +106,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1314/tags/zettelkasten/"
+                href="http://localhost:1313/tags/zettelkasten/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -120,7 +120,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1314/"
+                href="http://localhost:1313/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -134,7 +134,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1314/post/pgp/"
+                href="http://localhost:1313/post/pgp/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -147,7 +147,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1314/publication_types/"
+                href="http://localhost:1313/publication_types/"
                 />
     <xhtml:link
                 rel="alternate"
