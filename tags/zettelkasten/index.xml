@@ -1,203 +1,172 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Zettelkasten | Hazem Hussien</title>
-    <link>http://localhost:1313/tags/zettelkasten/</link>
-      <atom:link href="http://localhost:1313/tags/zettelkasten/index.xml" rel="self" type="application/rss+xml" />
-    <description>Zettelkasten</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 04 Dec 2022 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>http://localhost:1313/media/icon_hu_179101a07bf01088.png</url>
-      <title>Zettelkasten</title>
-      <link>http://localhost:1313/tags/zettelkasten/</link>
-    </image>
-    
-    <item>
-      <title>📑 How I manage my life with plain-text files</title>
-      <link>http://localhost:1313/post/life-in-plain-text/</link>
-      <pubDate>Sun, 04 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/life-in-plain-text/</guid>
-      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@Zettelkasten @plain-text @jrnl @todo.txt @ledger
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;I use plain-text files to keep track of every aspect of my life. Whether it is my studies, work or liters of water I drink every day.&lt;/p&gt;
-&lt;p&gt;This makes me not under the mercy of different mobile applications solving the same problem. One application for workouts and another for grocery while having a different one for scheduling that has it is own weird format.&lt;/p&gt;
-&lt;p&gt;Why not to use a plain-text alternative that it can be used from any text editor now or after 100 years?&lt;/p&gt;
-&lt;p&gt;This doesn&amp;rsquo;t mean we can&amp;rsquo;t use existing software and tools but we can change them in the way we want and this is one of the custom configurations I use that can be changed, altered or modified easily.&lt;/p&gt;
-&lt;h3 id=&#34;todotxt&#34;&gt;todo.txt&lt;/h3&gt;
-&lt;p&gt;I wanted to use a GTD-style system for being more productive, I started by using a Projects.md file and using another file for archiving while using an index file for capturing stuff and using some scripts to parse and edit the markdown files and refiling but the solution was even a more simple one: todo.txt format.&lt;/p&gt;
-&lt;p&gt;It is a standardized format while using only plain-text and it is also full-featured. The only downside of todo.txt is there is no nesting but I can mitigate it by using lower level +projects as I keep contexts for the highest level only. It is supported with different command-line and GUI software so I adopted it.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;I use the command-line tool and python package &lt;strong&gt;topydo&lt;/strong&gt;. I can even use it as a Kanban-style application from the command line with the command &lt;code&gt;topydo comlumns&lt;/code&gt; and I use a cron job to produce ical standard files from the todo.txt file by the command &lt;code&gt;topydo ls -f ical&lt;/code&gt; so I can use it with my calendar software which is calcurse.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;To automate the integration between todo.txt and calcurse I use the python package 
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;I usually edit the file from vim and it is supported by the plugin 
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Then I use another cron job to convert the todo.txt to an Org file with a script 
-.
-(This script I have ported with some modifications)&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;zettelkasten-w-markdown&#34;&gt;Zettelkasten (w/ Markdown)&lt;/h3&gt;
-&lt;p&gt;Let&amp;rsquo;s keep this clear: Zettelkasten method is the best thing we have for note taking, it helps capturing the flowing ideas of mind and collecting them in unexpected ways while also augmenting new ideas.&lt;/p&gt;
-&lt;p&gt;I wanted a time-proof digital solution for having a Zettelkasten, while also having full freedom over my data that&amp;rsquo;s why I opted for using vim (neovim).&lt;/p&gt;
-&lt;p&gt;I don&amp;rsquo;t use a directory structure to keep things simple but I use a non-strict naming standard. It is ported from the analog one of Niclas Luhmann himself so my files naming looks like this:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;101.1.2-data.md&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;101.2.5-life-in-text.md&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This is not thinking in an analog way in a digital world but rather a mind organizing technique in someway. So I can see my notes and have an overview of the &amp;ldquo;line of thought&amp;rdquo; of my ideas without relying on digital tools.&lt;/p&gt;
-&lt;p&gt;I do use timestamped notes too but these are done on smaller scaled notes, the &amp;ldquo;atomic&amp;rdquo; ones and all notes are linked together by the digital tools.&lt;/p&gt;
-&lt;p&gt;There is an excellent guide on how to make a markdown Zettelkasten with vim and with as few plugins as possible by 
-.&lt;/p&gt;
-&lt;p&gt;I use most of his neovim configuration in using ctags, searching with fzf (ripgrep) and backlinks but I have my own customisations.&lt;/p&gt;
-&lt;p&gt;To summarize my usage of vim in a Zettelkasten:&lt;/p&gt;
-&lt;p&gt;Buffers:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;C-p&lt;/code&gt; to search for a file, tag or buffer (use &lt;code&gt;C-b&lt;/code&gt; and &lt;code&gt;C-f&lt;/code&gt; for forward and backward)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;&amp;lt;leader&amp;gt;ni&lt;/code&gt; to open the index file&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;gf&lt;/code&gt; to jump files&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;:ls&lt;/code&gt; or &lt;code&gt;:buffers&lt;/code&gt; to list buffers&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;:b{nr}&lt;/code&gt; to go to bugger number&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;:bd&lt;/code&gt; to close buffer&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;C-o&lt;/code&gt;, &lt;code&gt;C-i&lt;/code&gt; and &lt;code&gt;C-6&lt;/code&gt; to jump buffers&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;&amp;lt;leader&amp;gt;nn&lt;/code&gt; to search inside our Zettelkasten directory&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;&amp;lt;leader&amp;gt;v&lt;/code&gt; of quickfix list in a vertical sidebar&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;:copen&lt;/code&gt; and &lt;code&gt;:cclose&lt;/code&gt; for opening the list&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;:cnext&lt;/code&gt; and &lt;code&gt;:cprev&lt;/code&gt; for jumping to next/previous list item&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;:cc {nr}:&lt;/code&gt; to jump to item number and echo it&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;:colder&lt;/code&gt; and &lt;code&gt;:cnewer&lt;/code&gt; to also navigate older quickfix lists.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Tags:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;&amp;lt;leader&amp;gt;tt&lt;/code&gt; to generate tags inside the directory (use 000-index.md as a placeholder)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;&amp;lt;leader&amp;gt;st&lt;/code&gt; to search for tags&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;:ts&lt;/code&gt; open the tag stack or &lt;code&gt;:st&amp;lt;tab&amp;gt;&lt;/code&gt; to show all tags&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;C-]&lt;/code&gt; and &lt;code&gt;C-t&lt;/code&gt; move the tag stack&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;g]&lt;/code&gt; show all files with tag&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Linking:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;C-p C-x&lt;/code&gt; (Normal) Using the CtrlP quickfix list&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;C-x C-f&lt;/code&gt; (Insert) to use the fzf (ripgrep) window&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;&amp;lt;leader&amp;gt;nb&lt;/code&gt; for backlinks&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-&lt;/p&gt;
-&lt;h3 id=&#34;jrnlsh&#34;&gt;jrnl.sh&lt;/h3&gt;
-&lt;p&gt;Despite its confusing and not so good name (Please don&amp;rsquo;t include .sh if it is written in python): 
- is one of the best tools for command line journalling.&lt;/p&gt;
-&lt;p&gt;It uses open formats while having a text based back-end which makes it perfect for my routine.&lt;/p&gt;
-&lt;p&gt;Journalling has been a very effective (scientifically proven) way for therapy but also for retaining memories and managing our life in thoughtful ways.&lt;/p&gt;
-&lt;p&gt;I don&amp;rsquo;t journal so much from the command line itself but rather edit with vim which usually makes me write more.&lt;/p&gt;
-&lt;p&gt;I use a main journal file where I collect my ideas, Those ideas are mostly personal unlike the Zettelkasten. My journalling routine is in the morning and before sleeping, those are the two journalling slots I stick to but I also write many snippets through out the day.&lt;/p&gt;
-&lt;p&gt;Those journal snippets are done by clicking &lt;code&gt;Alt+j&lt;/code&gt; inside my swaywm configuration which opens a terminal with a vim buffer where I write and it closes the terminal when I save the journal entry.&lt;/p&gt;
-&lt;p&gt;I also use other journals for managing and keeping record of many other aspects of life. These include a work journal where I keep logs of what I did and troubleshooting sequences, a habit tracking journal, a workout journal and others.&lt;/p&gt;
-&lt;p&gt;I want to track my habits and there are some specific habits I want to keep the days I did. Maybe I want to code everyday, so I write on the days I coded.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[2022-12-01 09:00] Code
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[2022-12-02 09:00] Code
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[2022-12-03 09:00] Code
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For tracking coding in my habits tracking journal I use this command:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;jrnl&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;habits&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;dates&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;contains&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;code&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Will get us this output:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;2022-12-01, 1
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;2022-12-02, 1
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;2022-12-03, 1
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Maybe I want it in a github style heatmap so I will use the [termgraph] package.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;jrnl&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;habits&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;dates&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;contains&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;code&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;|&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;termgraph&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;calendar&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Nov Dec Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Mon:
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Tue:
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Wed:
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Thu:                                                     █
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Fri:                                                     █
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Sat:                                                     █
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;I also want to keep track of my workouts. Let&amp;rsquo;s have a look on the workout journal.
-The journal entries would be something like this:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[2022-12-01 09:00] Run 2Km
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[2022-12-01 09:00] Benchpress 20Kg
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[2022-12-02 09:00] Run 5Km
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[2022-12-02 09:00] Deadlift 20Kg
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[2022-12-03 09:00] Deadlift 22Kg
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[2022-12-03 09:00] Run 4.5Km
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This makes us leverage the power of jrnl for both saving our data while also doing all sorts of good things. We can use the python package [termgraph] for visualizing our data.&lt;/p&gt;
-&lt;p&gt;So If I want to keep track of my daily runnings I will do this:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;jrnl --config-override colors.date none workout -contains run --short | awk &amp;#39;{printf(&amp;#34;%s %f\n&amp;#34;, $1, $4)}&amp;#39; | termgraph --custom-tick  🏃
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Will get us this kind of ouput:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;2022-12-01: 🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃 2.00
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;2022-12-02: 🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃 5.00
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;2022-12-03: 🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃 4.50
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This makes me manage my journalling in a minimal number of files while free writing in only one journal, these are my journals:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;journal.jrnl&lt;/li&gt;
-&lt;li&gt;work.jrnl&lt;/li&gt;
-&lt;li&gt;food.jrnl&lt;/li&gt;
-&lt;li&gt;workout.jrnl&lt;/li&gt;
-&lt;li&gt;habitstracker.jrnl&lt;/li&gt;
-&lt;li&gt;meetingstracker.jrnl&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Pro Tip: I use the script 
- (Also based on termgraph) to get data about my git commits without journalling them and I make use of automation a lot but writing habits is another process that doesn&amp;rsquo;t contradict collecting data.&lt;/p&gt;
-&lt;h3 id=&#34;ledger&#34;&gt;Ledger&lt;/h3&gt;
-&lt;p&gt;I use ledger for keeping track of my expenses and assets but I also use it for budgeting and time-tracking.&lt;/p&gt;
-&lt;p&gt;I don&amp;rsquo;t really use the ledger file to track most my time day-to-day as I already journal but I rather use it to &amp;ldquo;budget&amp;rdquo; my time and to keep a higher overview of my used time daily, weekly and monthly. I would keep blocks of time (time-blocking), write them in my &lt;strong&gt;timetracking.ledger&lt;/strong&gt; file and do my best to stick to them.&lt;/p&gt;
-&lt;p&gt;So what I do in my day is already predetermined but with a great flexibility about the details that I keep in my journal. Whenever I reallocate time from my time budget on other projects I write them down on the file. So this makes the &lt;strong&gt;timetracking.ledger&lt;/strong&gt; file a complimentary to the journal rather than another way to do things.&lt;/p&gt;
-&lt;h3 id=&#34;mobile-setup&#34;&gt;Mobile Setup&lt;/h3&gt;
-&lt;p&gt;Setting this setup on the mobile is easier than ever by using &lt;strong&gt;Syncthing&lt;/strong&gt; and &lt;strong&gt;Markor&lt;/strong&gt;. I wanted to use &lt;strong&gt;neutriNote&lt;/strong&gt; in the first place but couldn&amp;rsquo;t make it sync well with my notes. In the meanwhile Markor is perfect for todo.txt, markdown, jrnl and ledger formats.&lt;/p&gt;
-&lt;p&gt;It has syntax highlighting for both markdown and todo.txt formats and it can paste jrnl or ledger timestamps even if there is no syntax highlighting for now.&lt;/p&gt;
-&lt;p&gt;For a better mobile Zettelkasten experience I may opt for &lt;strong&gt;Logseq&lt;/strong&gt; android app (I didn&amp;rsquo;t try it yet) beside &lt;strong&gt;Markor&lt;/strong&gt; but for now Markor is just good for me as only an editor.&lt;/p&gt;
-&lt;p&gt;As for todo.txt, plus syncing the file through Syncthing a CalDAV server is used to sync my calendar which contains my todo list and already synced with &lt;strong&gt;calcurse-load&lt;/strong&gt; on my machine. But this is an unnecessary job which I do to streamline my todos with my calendar.&lt;/p&gt;
-&lt;p&gt;The same is done for the ledger file which is synced with a server having a &lt;strong&gt;ledger-web&lt;/strong&gt; service running.&lt;/p&gt;
-&lt;h3 id=&#34;emacs&#34;&gt;Emacs?&lt;/h3&gt;
-&lt;p&gt;All this setup can be ported easily to Emacs as I already export my todo.txt file to org-mode and vice-versa.&lt;/p&gt;
-&lt;p&gt;Also Emacs can work well with markdown format for a Zettelkasten or I can export my markdown files to Org files easily too. Even though this needs some Emacs configuration.&lt;/p&gt;
-&lt;p&gt;Nevertheless to say that Emacs has a ledger mode and can work well with the jrnl software by changing the jrnl &amp;ndash;editor.&lt;/p&gt;
-&lt;p&gt;So whether I use another tool or not the same concept of using plain-text files for managing life is used.&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Zettelkasten | Hazem Hussien</title><link>https://haze-sh.github.io/tags/zettelkasten/</link><atom:link href="https://haze-sh.github.io/tags/zettelkasten/index.xml" rel="self" type="application/rss+xml"/><description>Zettelkasten</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 04 Dec 2022 00:00:00 +0000</lastBuildDate><image><url>https://haze-sh.github.io/media/icon_hu_bc4cd7e17a49db8f.png</url><title>Zettelkasten</title><link>https://haze-sh.github.io/tags/zettelkasten/</link></image><item><title>📑 How I manage my life with plain-text files</title><link>https://haze-sh.github.io/post/life-in-plain-text/</link><pubDate>Sun, 04 Dec 2022 00:00:00 +0000</pubDate><guid>https://haze-sh.github.io/post/life-in-plain-text/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">@Zettelkasten @plain-text @jrnl @todo.txt @ledger
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>I use plain-text files to keep track of every aspect of my life. Whether it is my studies, work or liters of water I drink every day.&lt;/p>
+&lt;p>This makes me not under the mercy of different mobile applications solving the same problem. One application for workouts and another for grocery while having a different one for scheduling that has it is own weird format.&lt;/p>
+&lt;p>Why not to use a plain-text alternative that it can be used from any text editor now or after 100 years?&lt;/p>
+&lt;p>This doesn&amp;rsquo;t mean we can&amp;rsquo;t use existing software and tools but we can change them in the way we want and this is one of the custom configurations I use that can be changed, altered or modified easily.&lt;/p>
+&lt;h3 id="todotxt">todo.txt&lt;/h3>
+&lt;p>I wanted to use a GTD-style system for being more productive, I started by using a Projects.md file and using another file for archiving while using an index file for capturing stuff and using some scripts to parse and edit the markdown files and refiling but the solution was even a more simple one: todo.txt format.&lt;/p>
+&lt;p>It is a standardized format while using only plain-text and it is also full-featured. The only downside of todo.txt is there is no nesting but I can mitigate it by using lower level +projects as I keep contexts for the highest level only. It is supported with different command-line and GUI software so I adopted it.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>I use the command-line tool and python package &lt;strong>topydo&lt;/strong>. I can even use it as a Kanban-style application from the command line with the command &lt;code>topydo comlumns&lt;/code> and I use a cron job to produce ical standard files from the todo.txt file by the command &lt;code>topydo ls -f ical&lt;/code> so I can use it with my calendar software which is calcurse.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>To automate the integration between todo.txt and calcurse I use the python package &lt;a href="https://github.com/seanbreckenridge/calcurse-load" target="_blank" rel="noopener">calcurse-load&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>I usually edit the file from vim and it is supported by the plugin &lt;a href="dbeniamine/todo.txt-vim">todo.txt-vim&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Then I use another cron job to convert the todo.txt to an Org file with a script &lt;a href="https://github.com/Haze-sh/dotfiles/blob/master/private_dot_local/bin/scripts/executable_todo2org.py" target="_blank" rel="noopener">todo2org.py&lt;/a>.
+(This script I have ported with some modifications)&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="zettelkasten-w-markdown">Zettelkasten (w/ Markdown)&lt;/h3>
+&lt;p>Let&amp;rsquo;s keep this clear: Zettelkasten method is the best thing we have for note taking, it helps capturing the flowing ideas of mind and collecting them in unexpected ways while also augmenting new ideas.&lt;/p>
+&lt;p>I wanted a time-proof digital solution for having a Zettelkasten, while also having full freedom over my data that&amp;rsquo;s why I opted for using vim (neovim).&lt;/p>
+&lt;p>I don&amp;rsquo;t use a directory structure to keep things simple but I use a non-strict naming standard. It is ported from the analog one of Niclas Luhmann himself so my files naming looks like this:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>101.1.2-data.md&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>101.2.5-life-in-text.md&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>This is not thinking in an analog way in a digital world but rather a mind organizing technique in someway. So I can see my notes and have an overview of the &amp;ldquo;line of thought&amp;rdquo; of my ideas without relying on digital tools.&lt;/p>
+&lt;p>I do use timestamped notes too but these are done on smaller scaled notes, the &amp;ldquo;atomic&amp;rdquo; ones and all notes are linked together by the digital tools.&lt;/p>
+&lt;p>There is an excellent guide on how to make a markdown Zettelkasten with vim and with as few plugins as possible by &lt;a href="https://www.edwinwenink.xyz/series/workflow/" target="_blank" rel="noopener">Edwin Wenink&lt;/a>.&lt;/p>
+&lt;p>I use most of his neovim configuration in using ctags, searching with fzf (ripgrep) and backlinks but I have my own customisations.&lt;/p>
+&lt;p>To summarize my usage of vim in a Zettelkasten:&lt;/p>
+&lt;p>Buffers:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>C-p&lt;/code> to search for a file, tag or buffer (use &lt;code>C-b&lt;/code> and &lt;code>C-f&lt;/code> for forward and backward)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>&amp;lt;leader&amp;gt;ni&lt;/code> to open the index file&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>gf&lt;/code> to jump files&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>:ls&lt;/code> or &lt;code>:buffers&lt;/code> to list buffers&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>:b{nr}&lt;/code> to go to bugger number&lt;/li>
+&lt;li>&lt;code>:bd&lt;/code> to close buffer&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>C-o&lt;/code>, &lt;code>C-i&lt;/code> and &lt;code>C-6&lt;/code> to jump buffers&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>&amp;lt;leader&amp;gt;nn&lt;/code> to search inside our Zettelkasten directory&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>&amp;lt;leader&amp;gt;v&lt;/code> of quickfix list in a vertical sidebar&lt;/li>
+&lt;li>&lt;code>:copen&lt;/code> and &lt;code>:cclose&lt;/code> for opening the list&lt;/li>
+&lt;li>&lt;code>:cnext&lt;/code> and &lt;code>:cprev&lt;/code> for jumping to next/previous list item&lt;/li>
+&lt;li>&lt;code>:cc {nr}:&lt;/code> to jump to item number and echo it&lt;/li>
+&lt;li>&lt;code>:colder&lt;/code> and &lt;code>:cnewer&lt;/code> to also navigate older quickfix lists.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Tags:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>&amp;lt;leader&amp;gt;tt&lt;/code> to generate tags inside the directory (use 000-index.md as a placeholder)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>&amp;lt;leader&amp;gt;st&lt;/code> to search for tags&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>:ts&lt;/code> open the tag stack or &lt;code>:st&amp;lt;tab&amp;gt;&lt;/code> to show all tags&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>C-]&lt;/code> and &lt;code>C-t&lt;/code> move the tag stack&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>g]&lt;/code> show all files with tag&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>Linking:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>C-p C-x&lt;/code> (Normal) Using the CtrlP quickfix list&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>C-x C-f&lt;/code> (Insert) to use the fzf (ripgrep) window&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>&amp;lt;leader&amp;gt;nb&lt;/code> for backlinks&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;a href="101.2.3-workflow.md">101.2.workflow.md&lt;/a>&lt;/p>
+&lt;h3 id="jrnlsh">jrnl.sh&lt;/h3>
+&lt;p>Despite its confusing and not so good name (Please don&amp;rsquo;t include .sh if it is written in python): &lt;a href="jrnl.sh">jrnl.sh&lt;/a> is one of the best tools for command line journalling.&lt;/p>
+&lt;p>It uses open formats while having a text based back-end which makes it perfect for my routine.&lt;/p>
+&lt;p>Journalling has been a very effective (scientifically proven) way for therapy but also for retaining memories and managing our life in thoughtful ways.&lt;/p>
+&lt;p>I don&amp;rsquo;t journal so much from the command line itself but rather edit with vim which usually makes me write more.&lt;/p>
+&lt;p>I use a main journal file where I collect my ideas, Those ideas are mostly personal unlike the Zettelkasten. My journalling routine is in the morning and before sleeping, those are the two journalling slots I stick to but I also write many snippets through out the day.&lt;/p>
+&lt;p>Those journal snippets are done by clicking &lt;code>Alt+j&lt;/code> inside my swaywm configuration which opens a terminal with a vim buffer where I write and it closes the terminal when I save the journal entry.&lt;/p>
+&lt;p>I also use other journals for managing and keeping record of many other aspects of life. These include a work journal where I keep logs of what I did and troubleshooting sequences, a habit tracking journal, a workout journal and others.&lt;/p>
+&lt;p>I want to track my habits and there are some specific habits I want to keep the days I did. Maybe I want to code everyday, so I write on the days I coded.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">[2022-12-01 09:00] Code
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[2022-12-02 09:00] Code
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[2022-12-03 09:00] Code
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>For tracking coding in my habits tracking journal I use this command:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span class="line">&lt;span class="cl">&lt;span class="n">jrnl&lt;/span> &lt;span class="n">habits&lt;/span> &lt;span class="o">--&lt;/span>&lt;span class="k">export&lt;/span> &lt;span class="n">dates&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="n">contains&lt;/span> &lt;span class="n">code&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Will get us this output:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">2022-12-01, 1
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">2022-12-02, 1
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">2022-12-03, 1
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Maybe I want it in a github style heatmap so I will use the [termgraph] package.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span class="line">&lt;span class="cl">&lt;span class="n">jrnl&lt;/span> &lt;span class="n">habits&lt;/span> &lt;span class="o">--&lt;/span>&lt;span class="k">export&lt;/span> &lt;span class="n">dates&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="n">contains&lt;/span> &lt;span class="n">code&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="n">termgraph&lt;/span> &lt;span class="o">--&lt;/span>&lt;span class="n">calendar&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Nov Dec Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Mon:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Tue:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Wed:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Thu: █
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Fri: █
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Sat: █
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>I also want to keep track of my workouts. Let&amp;rsquo;s have a look on the workout journal.
+The journal entries would be something like this:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">[2022-12-01 09:00] Run 2Km
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[2022-12-01 09:00] Benchpress 20Kg
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[2022-12-02 09:00] Run 5Km
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[2022-12-02 09:00] Deadlift 20Kg
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[2022-12-03 09:00] Deadlift 22Kg
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[2022-12-03 09:00] Run 4.5Km
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>This makes us leverage the power of jrnl for both saving our data while also doing all sorts of good things. We can use the python package [termgraph] for visualizing our data.&lt;/p>
+&lt;p>So If I want to keep track of my daily runnings I will do this:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">jrnl --config-override colors.date none workout -contains run --short | awk &amp;#39;{printf(&amp;#34;%s %f\n&amp;#34;, $1, $4)}&amp;#39; | termgraph --custom-tick 🏃
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Will get us this kind of ouput:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">2022-12-01: 🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃 2.00
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">2022-12-02: 🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃 5.00
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">2022-12-03: 🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃 4.50
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>This makes me manage my journalling in a minimal number of files while free writing in only one journal, these are my journals:&lt;/p>
+&lt;ul>
+&lt;li>journal.jrnl&lt;/li>
+&lt;li>work.jrnl&lt;/li>
+&lt;li>food.jrnl&lt;/li>
+&lt;li>workout.jrnl&lt;/li>
+&lt;li>habitstracker.jrnl&lt;/li>
+&lt;li>meetingstracker.jrnl&lt;/li>
+&lt;/ul>
+&lt;p>Pro Tip: I use the script &lt;a href="https://github.com/avimehenwal/git-insight" target="_blank" rel="noopener">git-insight&lt;/a> (Also based on termgraph) to get data about my git commits without journalling them and I make use of automation a lot but writing habits is another process that doesn&amp;rsquo;t contradict collecting data.&lt;/p>
+&lt;h3 id="ledger">Ledger&lt;/h3>
+&lt;p>I use ledger for keeping track of my expenses and assets but I also use it for budgeting and time-tracking.&lt;/p>
+&lt;p>I don&amp;rsquo;t really use the ledger file to track most my time day-to-day as I already journal but I rather use it to &amp;ldquo;budget&amp;rdquo; my time and to keep a higher overview of my used time daily, weekly and monthly. I would keep blocks of time (time-blocking), write them in my &lt;strong>timetracking.ledger&lt;/strong> file and do my best to stick to them.&lt;/p>
+&lt;p>So what I do in my day is already predetermined but with a great flexibility about the details that I keep in my journal. Whenever I reallocate time from my time budget on other projects I write them down on the file. So this makes the &lt;strong>timetracking.ledger&lt;/strong> file a complimentary to the journal rather than another way to do things.&lt;/p>
+&lt;h3 id="mobile-setup">Mobile Setup&lt;/h3>
+&lt;p>Setting this setup on the mobile is easier than ever by using &lt;strong>Syncthing&lt;/strong> and &lt;strong>Markor&lt;/strong>. I wanted to use &lt;strong>neutriNote&lt;/strong> in the first place but couldn&amp;rsquo;t make it sync well with my notes. In the meanwhile Markor is perfect for todo.txt, markdown, jrnl and ledger formats.&lt;/p>
+&lt;p>It has syntax highlighting for both markdown and todo.txt formats and it can paste jrnl or ledger timestamps even if there is no syntax highlighting for now.&lt;/p>
+&lt;p>For a better mobile Zettelkasten experience I may opt for &lt;strong>Logseq&lt;/strong> android app (I didn&amp;rsquo;t try it yet) beside &lt;strong>Markor&lt;/strong> but for now Markor is just good for me as only an editor.&lt;/p>
+&lt;p>As for todo.txt, plus syncing the file through Syncthing a CalDAV server is used to sync my calendar which contains my todo list and already synced with &lt;strong>calcurse-load&lt;/strong> on my machine. But this is an unnecessary job which I do to streamline my todos with my calendar.&lt;/p>
+&lt;p>The same is done for the ledger file which is synced with a server having a &lt;strong>ledger-web&lt;/strong> service running.&lt;/p>
+&lt;h3 id="emacs">Emacs?&lt;/h3>
+&lt;p>All this setup can be ported easily to Emacs as I already export my todo.txt file to org-mode and vice-versa.&lt;/p>
+&lt;p>Also Emacs can work well with markdown format for a Zettelkasten or I can export my markdown files to Org files easily too. Even though this needs some Emacs configuration.&lt;/p>
+&lt;p>Nevertheless to say that Emacs has a ledger mode and can work well with the jrnl software by changing the jrnl &amp;ndash;editor.&lt;/p>
+&lt;p>So whether I use another tool or not the same concept of using plain-text files for managing life is used.&lt;/p></description></item></channel></rss>
